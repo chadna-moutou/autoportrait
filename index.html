@@ -1,96 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <style>
-    .encadre {
-        background: #f9f9f9; 
-        padding: 25px; 
-        border-radius: 15px; 
-        margin-bottom: 30px; 
-    }
-    h3 {
-        margin-top: 0;
-        color: #2c3e50;
-        text-transform: uppercase;
-        font-size: 1.1em;
-        letter-spacing: 1px;
-    }
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autoportrait - Chadna Moutoucomarapoulé</title>
     <style>
-        body { font-family: 'Arial', monospace; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 40px; }
+        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; padding: 40px; }
         .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-top: 10px solid #2c3e50; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
         h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
-        .code { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        .code { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; margin-bottom: 20px;}
         .tag { color: #f92672; }
-        .attr { color: #a6e22e; }
+        
+        /* Style des encadrés */
+        .encadre {
+            background: #f9f9f9; 
+            padding: 25px; 
+            border-radius: 15px; 
+            margin-bottom: 30px; 
+            border-left: 5px solid #2c3e50;
+        }
+        h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+        .img-grid { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px; }
+        .img-grid img { width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Chadna Moutoucomarapoulé </h1>
-        <p><strong>Candidature en Master 1 Journalisme à l'université de Lorraine </strong></p>
+        <h1>Chadna Moutoucomarapoulé</h1>
+        <p><strong>Candidature en Master 1 Journalisme à l'université de Lorraine</strong></p>
         
         <div class="code">
             <code>
                 <span class="tag">&lt;profil&gt;</span><br>
-                &nbsp;&nbsp;Étudiante âgée de 20 ans, d'origine réunionnaise. Je suis sensible aux problématiques sociales, en particulier celles afferentes aux minorités. Je souhaite devenir journaliste pour un magazine de société sur le web.  <br>
+                &nbsp;&nbsp;Étudiante âgée de 20 ans, d'origine réunionnaise. Je suis sensible aux problématiques sociales, en particulier celles afférentes aux minorités. Je souhaite devenir journaliste pour un magazine de société sur le web.<br>
+                <span class="tag">&lt;/profil&gt;</span>
             </code>
         </div>
-<p>Bienvenue sur mon <u>autoportrait</u> numérique. J'ai appris le langage <strong>HTML</strong> lors d'un enseignement optionnel de spécialisation web. Dans le cadre de ma formation, j'ai suivi des enseignements en sciences du langage au sein d'un parcours en journalisme. À présent, je souhaite développer mes compétences, dans une école consciente des évolutions du <strong>journalisme</strong>.</p>
+
+        <p>Bienvenue sur mon <u>autoportrait</u> numérique. J'ai appris le langage <strong>HTML</strong> lors d'un enseignement optionnel de spécialisation web. Dans le cadre de ma formation, j'ai suivi des enseignements en sciences du langage au sein d'un parcours en journalisme. À présent, je souhaite développer mes compétences, dans une école consciente des évolutions du <strong>journalisme</strong>.</p>
         
-   <div style="margin-bottom: 30px;">
-    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px;">
-        <img src="photo-reunion.jpg" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-        <img src="photo-moi2.jpg" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-        <img src="photo-mtp.jpg" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-    </div>
-    <div style="overflow: auto; margin-bottom: 20px;">
-    <p><em>Depuis mon installation en 2023, ma vie se partage entre <strong>La Réunion</strong> et <strong>Montpellier.</strong> Si j'ai fait le choix de partir c'est pour me garantir un enseignement de qualité dans le domaine du journalisme. Il me tenait à cœur de mettre toutes les chances de mon côté pour intégrer une école reconnue par la profession. Si j'en ai l'opportunité, je retournerai sur mon île pour contribuer à l'évolution des médias.  </em></p>
-</div>
-       <div class="encadre">
-    <p><h3>Compétences et liens avec le journalisme</h3><p/>
-    <ul>
-    <li>Rédaction d'articles écrits</li>
-    <li>Pratique de l'interview</li>
-    <li>Esprit synthétique</li>
-    <li>Travail de groupe</li>
-    <li>Hiérarchisation de l'information</li>
-    </ul>
-     <p>Plusieurs raisons et expériences motivent mon désir de devenir journaliste. Tout d’abord, il y a eu ma formation : quatre jours à l’université et un jour en école de journalisme. Une formation complémentaire qui lie les sciences du langage et de l’interaction à la pratique du journalisme. Elle m’a permis de découvrir les enjeux autour des entreprises médiatiques en ce qui concerne leur économie, les controverses autour de la profession ou encore les changements auxquels elles doivent faire face. Puis, deux expériences professionnelles sont venues confirmer cette appétence pour la diffusion de l’information : un stage et un studio-école en radio. Elles ont confirmé ma volonté d’être à l’écoute et de constamment chercher des sujets à explorer. Sur l’aspect technique, j’ai apprécié le fait d’être en autonomie pour produire mes réalisations.   </p> 
-<div style="margin-bottom: 30px;">
-    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px;">
-        <img src="article-eau.png" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-        <img src="presentation-bavardes.jpg" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-        <img src="reco-cine.jpg" style="width: 31%; min-width: 200px; height: auto; border-radius: 10px; object-fit: cover;">
-    </div>
-    <p>En septembre dernier, avec 6 amies, nous avons fondé <a href=https://www.instagram.com/bavardes_media?igsh=MWFxenQweWdvZDhqMA==><strong>Bavardes média</strong></a> sur Instagram. À travers ce média, je m'exerce à la vulgarisation de l'information par exemple dans cet article qui parle de la faillite hydrique dénoncée par l'ONU. Ce que j'apprécie c'est de rendre l'information accessible et compréhensible, comme là sur un sujet environnemental. 
-    Je peux être amené également, à recommander des films que j'ai pu voir. Ici, c'est "Promis le ciel", un film qui m'a beaucoup touché et que je souhaite partager au plus grand nombre. Je m'épanouie dans l'écriture de ce que je vois et ce que je ressens, ça me permet de palier au sentiment d'impuissance. <p/>
+        <div style="margin-bottom: 30px;">
+            <div class="img-grid">
+                <img src="photo-reunion.jpg">
+                <img src="photo-moi2.jpg">
+                <img src="photo-mtp.jpg">
+            </div>
+            <p><em>Depuis mon installation en 2023, ma vie se partage entre <strong>La Réunion</strong> et <strong>Montpellier.</strong> Si j'ai fait le choix de partir c'est pour me garantir un enseignement de qualité dans le domaine du journalisme. Il me tenait à cœur de mettre toutes les chances de mon côté pour intégrer une école reconnue par la profession. Si j'en ai l'opportunité, je retournerai sur mon île pour contribuer à l'évolution des médias.</em></p>
+        </div>
 
-<div class="encadre">
-    <h3>Culture Numérique</h3>
-    <p>Je suis, depuis toujours, attiré par le numérique et cela même avant de vouloir être journaliste. Durant mon cursus j'ai pu être formé à l'utilisation de divers logiciel. 
-    <li>InDesign</li>
-    <li>Photoshop</li>
-    <li>Adobe Audition</li>
-    <li>Premiere pro</li>
-    <li>Bluefish</li>
-    </p>
-</div>
-
-<div class="encadre">
-    <p><h3>Ma Veille d'Informations</h3>
-    <ul>
-        <li><strong>Actualité Internationale :</strong> France 24 et la radio RFI</li>
-        <li><strong>Analyses de la société d'un point de vue jeune et féminin :</strong> Ancre magazine</li>
-        <li><strong>Enquêtes, médias d'investigation :</strong> Compléments d'enquête, Streetpress </li>
-        <li><strong>Actualité générale :</strong> france info, Libération, La Croix</li>
-        <li><strong>Formats longs sur les outre-mer :</strong> C pas si loin sur France TV</li>
-    </ul></p>
-</div>
-           
-<div style="clear: both;"></div>
-</body>
-</html>
+        <div class="encadre">
+            <h3>Compétences et liens avec le journalisme</h3>
+            <ul>
+                <li>Rédaction d'articles écrits</li>
+                <li>Pratique de l'interview</li>
+                <li>Esprit synthétique</li>
+                <li>Travail de groupe</li>
+                <li>Hiérarchisation de l'information</li>
+            </ul>
+            <p>Plusieurs raisons et expériences motivent mon désir de devenir journaliste. Tout d’abord, il y a eu ma formation : quatre jours à l’université et un jour en école de journalisme. Une formation complémentaire qui lie les sciences du langage et de l’interaction à la pratique du journalisme. Elle m’a permis de découvrir les enjeux autour des entreprises médiatiques en ce qui concerne leur économie, les
